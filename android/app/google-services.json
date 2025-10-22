@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "148513483411",
+    "project_id": "app-reporte-infraestructura",
+    "storage_bucket": "app-reporte-infraestructura.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148513483411:android:7aadd101aa2a3b9e02fb66",
+        "android_client_info": {
+          "package_name": "com.example.app_report"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgCZOAv5OsWbf-FKJaYkCOXvY4KL3sgC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

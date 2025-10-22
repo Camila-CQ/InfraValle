@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "app-reporte-infraestructura",
+          "appId": "1:148513483411:android:7aadd101aa2a3b9e02fb66",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "app-reporte-infraestructura",
+          "configurations": {
+            "android": "1:148513483411:android:7aadd101aa2a3b9e02fb66",
+            "ios": "1:148513483411:ios:f20b6077587af30802fb66",
+            "macos": "1:148513483411:ios:f20b6077587af30802fb66",
+            "web": "1:148513483411:web:dcfbae4b9e44a4e802fb66",
+            "windows": "1:148513483411:web:c8fe0d3651562afd02fb66"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
