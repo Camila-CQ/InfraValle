@@ -349,7 +349,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
                         // Pie de página / créditos o versión
                         Text(
-                          'v1.0.0 • Flutter Web + Firebase',
+                          'v1.0.0 • Reportes De Infraestructura',
                           textAlign: TextAlign.center,
                           style: TextStyle(color: Colors.grey[600], fontSize: 12),
                         ),
